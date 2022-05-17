@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, 'poppins';
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('./img/blog.jpg');
+    background-position: center;
+    background-size: cover;
+}
