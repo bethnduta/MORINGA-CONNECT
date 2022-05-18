@@ -10,25 +10,22 @@
   </head>
   <body>
     <div class="header">
-      <nav class="navbar navbar-inverse">
-          <div class="container-fluid">
-            <div class="navbar-header">
-              <a class="navbar-brand"  href="/" style="font-size: 18px;" >MORINGA CONNECT</a>
-            </div>
-            <ul class="nav navbar-nav">
-              <li ><a href="/posts" style="font-size: 18px ;">Feedback</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">About Us</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="/register"><span class="glyphicon glyphicon-user" style="font-size: 18px ;"></span> REGISTER</a></li>
-              <li><a href="/login"><span class="glyphicon glyphicon-log-in" style="font-size: 18px ; "></span> Login</a></li>
-            </ul>
-          </div>
-        </nav>
+      <nav>
+        <img src="https://moringaschool.com/wp-content/themes/moringa/public/images/logo.png" class="logo">
+        <ul class="nav-links">
+            <li><a href="" style="color: rgb(255, 55, 0);">Technical mentors</a></li>
+            <li><a href="#">student support</a></li>
+            <li><a href="#">canvas</a></li>
+        </ul>
+        <a href="login.html" class="log-btn">log in </a>
+        <a href="login.html" class="register-btn">Register now</a>
+    </nav>
         </div>
     {% block content %}
+    
+
 
     {% endblock %}
+
   </body>
 </html>

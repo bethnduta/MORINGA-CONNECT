@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,9 +8,57 @@
 }
 
 body{
-    width: 100%;
+    width: 90%;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('./img/blog.jpg');
+    /* background-color: rgb(10, 10, 26); */
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('./img/background.png');
     background-position: center;
     background-size: cover;
+    color:white;
 }
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+  }
+  
+  .logo {
+    width: 140px;
+    cursor: pointer;
+  }
+  
+  .nav-links li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .register-btn {
+    text-decoration: none;
+    background: #fff;
+    color: #000;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .log-btn {
+    text-decoration: none;
+    background: #fff;
+    color: #000;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  

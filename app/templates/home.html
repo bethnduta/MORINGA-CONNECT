@@ -1,5 +1,92 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>MORINGA CONNECT</h1>
-{%end block%}
+<!-- <h1>MORINGA CONNECT</h1> -->
+<br><br><br><br>
+<div class="container mt-6">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="btn-group-vertical">
+            <button class="btn btn-info" style="background-color: #E5E5E5;">QUESTIONS</button>
+            <button class="btn btn-info">FEEDBACK</button>
+            <button class="btn btn-info">SHOUTOUTS</button>
+            <button class="btn btn-info">ADRESSED</button>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Comment by: <span>Beth</span></h4>
+                  <p class="card-text">The LMS had issues over the whole week </p>
+                  <a href="#" class="btn btn-success">UPVOTE<span style="color: rgb(255, 55, 0);" >+1</span></a>
+                  <a href="#" class="btn btn-primary">DOWNVOTE<span style="color: rgb(255, 55, 0);">-1</span style="color: rgb(255, 55, 0);"></a>
+                  <a href="#" class="btn btn-primary" style="background-color: rgb(255, 55, 0);">Hide</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Comment</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, maxime!</p>
+                  <a href="#" class="btn btn-success" style="background-color: rgb(255, 55, 0);">Leave Comment</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis?</p>
+                  <a href="#" class="btn btn-success"> UPVOTE <span style="color: rgb(255, 55, 0);">+1</span></a>
+                  <a href="#" class="btn btn-primary">DOWNVOTE <span style="color: rgb(255, 55, 0);">-1</span></a>
+                  <a href="#" class="btn btn-primary" style="background-color: rgb(255, 55, 0);">Comments</a>
+                </div>
+              </div>
+        </div>
+        <!-- row-right -->
+        <div class="col-sm-4">
+            <h1 style="color: rgb(255, 55, 0);">share anything</h1>
+            <form class="form-horizontal" >
+                <div class="form-group">
+                    <label for="sel1">Shout out</label>
+                    <select class="form-control" id="sel1">
+                      <option>LMS</option>
+                      <option></option>
+                      <option></option>
+                      <option></option>
+                    </select>
+                  </div>
+    
+                  <div class="form-group">
+                    <label for="sel1">Technical Mentors:</label>
+                    <select class="form-control" id="sel1">
+                      <option>Maryann mwikali</option>
+                      <option>Abzed Abdul</option>
+                      <option>Beatrice Wambui</option>
+                      <option>Raphael Katana</option>
+                      <option>Rose Delilah</option>
+                    </select>
+                  </div>
+                <div class="form-group">
+                  
+                  <div class="col-sm-10">
+                    <textarea id="w3review" name="w3review" rows="5" cols="50">
+                        
+                        </textarea>
+                  </div>
+                </div>
+                <!-- <div class="form-group">
+                  <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                      <label><input type="checkbox"> Remember me</label>
+                    </div>
+                  </div>
+                </div> -->
+                <div class="form-group">
+                  <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">POST</button>
+                  </div>
+                </div>
+              </form>
+        </div>
+      </div>
+    
+</div>
+{% endblock %}
